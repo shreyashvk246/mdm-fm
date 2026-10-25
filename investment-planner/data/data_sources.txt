@@ -1,0 +1,12 @@
+Data source: Yahoo Finance, accessed on 2026-10-25
+Requested start date: 2015-01-01
+Requested end date: 2026-10-26 (coverage may stop at the latest available observation)
+Frequency: Monthly (yfinance interval='1mo')
+Prices: Yahoo Finance OHLCV fields; use Adj Close when present for return analysis.
+
+Per-file results:
+nifty50_monthly.csv: ^NSEI | Nifty 50 index | 2015-01-01 to 2026-10-01 | 142 monthly rows
+goldbees_monthly.csv: GOLDBEES.NS | Nippon India ETF Gold BeES | 2015-01-01 to 2026-10-01 | 142 monthly rows
+liquidbees_monthly.csv: LIQUIDBEES.NS | Nippon India ETF Liquid BeES | 2015-01-01 to 2026-10-01 | 142 monthly rows
+nifty_midcap50_monthly.csv: ^NSEMDCP50 | Nifty Midcap 50 index | 2015-01-01 to 2026-10-01 | 142 monthly rows
+giltbees_monthly.csv: FAILED - no data returned for GILTBEES.NS
